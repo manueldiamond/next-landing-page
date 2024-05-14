@@ -15,9 +15,9 @@ const Steps = () => {
         <h2 className='mx-auto text-center text-4xl font-bold underline py-8'>{heading}</h2>
         <p className='mx-auto text-center text-gray-900 text-lg '>{subtext}</p>
         
-        <div className="flex my-6 w-full flex-wrap mx-auto justify-center max-w-[1000px] gap-8 ">
+        <div className="flex my-6 w-full flex-wrap mx-auto justify-center max-w-[1200px] gap-8 ">
             {items.map((item,index)=>(
-                <div className="h-full w-full bg-white group md:max-w-[400px] rounded-3xl even:bg-blue-600 even:text-white shadow-md p-7 ">
+                <div className="h-full w-full bg-white group md:max-w-[350px] rounded-3xl even:bg-blue-600 even:text-white shadow-md p-7 ">
                     <div className='border-white border bg-blue-200 rounded-full w-[40%] mx-auto p-4 mb-4 aspect-square flex items-center justify-center'>
                         <Image
                          src={item.image}

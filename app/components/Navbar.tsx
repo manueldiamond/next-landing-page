@@ -64,7 +64,7 @@ const Navbar = () => {
     }, []);
 
   return (
-    <nav className='fixed z-50 w-full items-center flex flex-col gap-4 p-4 lg:px-8 lg:py-9 top-0 bg-white'>
+    <nav className={`${scrolledDown&&"border-b border-b-blue-600 shadow-sm shadow-blue-500"} fixed z-50 w-full items-center flex flex-col gap-4 p-4 lg:px-8 lg:py-9 top-0 bg-white`}>
        <div className='container items-center flex justify-between'>
             <Link href={"/"} className='blue flex gap-2'>
                 <Image src={mainLogoUrl} 

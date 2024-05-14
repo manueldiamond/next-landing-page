@@ -8,8 +8,8 @@ export const header={
     buttonText:"Get in Touch",
 }
 export const hero={
-    headerParagraph:"Breath taking learning resources that carve you path to success",
-    header:"Start making 499 USD, per hour. Join the Sigma Grindset Cats and EARN for only 499 USD",
+    headerParagraph:"(all place holder text) Breath taking learning resources that carve you path to success",
+    header:"Hello Rafik, I hope this demo demonstrates my capabilities and how I can help you on your project",
     heroImage:img("https://i.ibb.co/yswxGJ6/Whats-App-Image-2024-05-13-at-3-42-30-PM.jpg","working sigma cat"),
     imageCaption:"Its actually just an AI cat",
     CTA:{
